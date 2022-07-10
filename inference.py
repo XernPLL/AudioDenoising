@@ -3,9 +3,7 @@ import torchaudio as ta
 from Demucs import *
 import scipy.io.wavfile
 import numpy as np
-import random
-# 38/0.flac 64/14.flac
-# free-sound/noise-free-sound-0061.wav, free-sound/noise-free-sound-0090.wav
+
 
 
 def create_noise_file(audio_clean,noise_path,output):
